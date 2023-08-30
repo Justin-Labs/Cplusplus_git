@@ -1,0 +1,5 @@
+The term static means something very different in C++ than it does in C.
+In C, static referred to a storage class for specific types of variables.
+In C++ however, the term static is used for member functions or member variables
+which are not associated with individual objects of a class, but rather with
+the class as a whole.

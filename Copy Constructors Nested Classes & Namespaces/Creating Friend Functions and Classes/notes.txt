@@ -1,0 +1,11 @@
+friend void display_transaction_report(const BankAccount& bank_account)
+
+introducing friend function.
+Its called display_transaction_report on the above line of code, is a friend function of return type void 
+that takes in one input argument of type const BankAccount&.
+
+a "friend" gets access to all parts of this class. That includes all member variables and methods which 
+are in the private as well as the public sections.
+
+turns out the use of friend here is gratuitous, and using a getter would have been easier.
+There are still circumstances in which the friend keyword is required and not just a nice to have.

@@ -1,0 +1,9 @@
+A constructor is a special method, which has the same name as the class that it belongs in , and it's going
+to be invoked every time an object of the class is constructed. It's possible for a class to have more than 
+one constructor, and there's also something know as the default no argument constructor.
+
+Remember how we've already discussed that when input arguments are passed by value, a copy is created.
+And how is that copy going to be created? Using the copy constructor of course. So if we try to pass
+in the first input argument by value, that triggers a call to the copy constructor. However, this is itself
+ the copy constructor and this leads to infinite recursion. This explains why the input argument into
+ a copy constructor is always going to be a const reference.

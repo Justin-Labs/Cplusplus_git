@@ -1,0 +1,5 @@
+You'll  notice that we declared shapes namespace in circle.h and then again in circle.cpp. And this is perfectly 
+acceptable to the compiler. 
+We did this both to slightly reduce the amount of text in the code compared to the V02 folder, and to show that
+it works fine.
+The compiler will combine or concatenated and the union will be taken as the total contents of that namespace. 

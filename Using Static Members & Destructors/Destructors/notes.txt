@@ -1,0 +1,15 @@
+The term static means something very different in C++ than it does in C.
+In C, static referred to a storage class for specific types of variables.
+In C++ however, the term static is used for member functions or member variables
+which are not associated with individual objects of a class, but rather with
+the class as a whole.
+
+The important bit to note here is that we are ables to access student.major, 
+even though major is a private member variable of the student class. This
+happened because a static member function is a full member of the class and
+this means that in terms of privileges, any object of that class which is passed
+in  as an argument to a static member function will give access to its private
+as well as public members to the static method. 
+(see Student.cpp)
+
+also as a reminder there is no this pointer available inside a static method.

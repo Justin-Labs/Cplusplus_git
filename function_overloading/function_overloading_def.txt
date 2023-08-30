@@ -1,0 +1,12 @@
+C++ supports something known as function_overloading, which is the practice of creating different functions
+which all have the same name. Those different functins will have different input argument types, however, 
+and that's how the compiler knows which of those overloaded functions the caller is trying to invoke.
+Can not overload functions based on their return type alone.
+Can not overload functions purely on a difference between
+a *type that is a pointer type and an array.
+Its most likely not going to work as expected if we try and cast
+a variable as a different type, since static cast creates a temp
+copy, and the compiler won't take this type of temp copy and cast It
+to be a const reference, so it starts looking around for another version
+shich could take an implicit type conversion.--don't use confusing
+coding and expect the conpiler to just sort it out.

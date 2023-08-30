@@ -1,0 +1,13 @@
+added this line to the tasks.json file in the "args" section
+"${workspaceFolder}/*.cpp",  this tells the compiler to link 
+in the math_utility.cpp file the the workspaceFolder that
+we are currently in.
+
+That didn't work possible due to my large dir struct.
+so I switched to to "${fileDirname}/*.cpp", which worked
+once I changed my original file to a .C file so compiler wouldn't
+try and compile it with the math_utility.cpp and cause
+errors due to multiple definitions.
+
+or we can just manually invoke g++ and include both cpp files that
+way.

@@ -1,0 +1,2 @@
+Please note that one difference between namespace and class is that there is no semicolon following
+the closing curly brace for a namespace vs a class.

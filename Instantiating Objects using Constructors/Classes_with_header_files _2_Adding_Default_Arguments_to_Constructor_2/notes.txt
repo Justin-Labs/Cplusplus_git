@@ -1,0 +1,10 @@
+A constructor is a special method, which has the same name as the class that it belongs in , and it's going
+to be invoked every time an object of the class is constructed. It's possible for a class to have more than 
+one constructor, and there's also something know as the default no argument constructor.
+
+There is a problem when you have two default values for  both of the input argument and a default value with 
+no input arguments at all.
+If you have two different overloaded functions and the default values make it ambiguous which one of them 
+ought to be invoked, the compiler will throw. How can we get rid of this compiler error? There are a couple
+of options. One is to eleminate the default values from one or both of the input arguments to the 
+parameterized constructor. Another is to get rid of the default no argument constructor.

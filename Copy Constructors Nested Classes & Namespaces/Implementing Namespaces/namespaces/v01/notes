@@ -1,0 +1,11 @@
+inline was only added to C++ in C++17
+
+If there are multiple CPP files which happen to pull in these constants, those definitions will all be resolved by the 
+linker into just the same underlying object. Ther will only be one version of the const double pi, and that's again 
+because of the inline keyword that you see here on lines 3 and 4 of constants.h.
+
+One bit of terminology, we've been referring to .cpp files, but you should know that the technical term here is a 
+translation unit. In C++, very roughly, a translation usnit is equivalent to 1.cpp file. In this particular code, you 
+can see in the list of files over on the left, that we have multiple translation units, Circle.cpp, shape_util.cpp, 
+and main.cpp.
+

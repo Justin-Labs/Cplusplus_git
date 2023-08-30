@@ -1,0 +1,6 @@
+How we can allocate a pointer in the constructor and  then what cleanup we need to perform in 
+the destructor. 
+To illustrate this point, we are going to  addd anew class to our program and for that we'be 
+added a new file to our workspace. You can see that the file name is Program.h and Program.cpp
+
+This experiment  where we create our variables on the free store/ heap

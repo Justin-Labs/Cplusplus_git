@@ -1,0 +1,8 @@
+Here in this example we use the using statement to access namespaces like shapes and constants to reduce some of the 
+coding in our files. see shapes_util.cpp.
+
+Do keep in mind it's fine to use the using statement in the .cpp files, however it is not fine to use this in the .h 
+files. So, within the .h files, we should continue having fully referenced  names for our types.
+
+Also note that even if you use this, there is nothing preventing you from still using the fully qualified name,
+for instance see the main.cpp file.

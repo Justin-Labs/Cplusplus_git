@@ -1,0 +1,10 @@
+Nested Classes
+BankAccount.h has Nested Class
+
+In this example its located in the Private section of the BankAccount Class
+so the Nested CreditCard class is only going to be accessible from within the
+BankAccount class.
+
+A Nested class is a class that has its definition inside the definition of another class.
+
+I noticed that this didn't actually correct the credit limit after payment.

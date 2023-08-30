@@ -1,0 +1,1 @@
+The whole example goes through trying to cheat and modify a const value, and it doesn't work.

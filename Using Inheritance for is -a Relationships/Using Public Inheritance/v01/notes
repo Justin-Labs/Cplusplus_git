@@ -1,0 +1,6 @@
+Our first taks of public inheritance, that is, a derived calss relationship. see GraduateStudent.h.
+Public inheritance is by far the most common type of inheritance in C++, and it's commonly used to 
+express is-a relationships. 
+
+All of the member vaiables and methods avilable in the class Student are also going to be available in 
+GraduateStudent.

@@ -1,0 +1,2 @@
+ahhh. headache, the reason why one of the main files is not cpp is because it confuses the compiler. so which ever
+file you want to compile change it to .cpp, and remove the extension from the other file.
