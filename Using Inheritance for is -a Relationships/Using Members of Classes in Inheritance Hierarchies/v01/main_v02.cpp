@@ -13,8 +13,8 @@ int main()
     student.name = "Ethan";
     student.gpa = 3.7f;
 
-    grad_student.name = "Vera";
-    grad_student.gpa = 3.9f;
+    grad_student.name = "Vera";    //proves that grad_student is a derived class of student and can access student member variables.
+    grad_student.gpa = 3.9f;       //proves that grad_student is a derived class of student and can access student member variables.
     grad_student.scholarship = true;
 
     cout << "Student name: " << student.get_name() 
