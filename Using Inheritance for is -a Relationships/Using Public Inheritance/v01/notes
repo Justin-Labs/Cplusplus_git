@@ -4,3 +4,10 @@ express is-a relationships.
 
 All of the member vaiables and methods avilable in the class Student are also going to be available in 
 GraduateStudent.
+
+line 5 of GraduateStudent.h is our first example of our first use of the inheritance. 
+class GraduateStudent : public Student {
+
+This line of code makes it clear that GraduateStudent derives from or inherits from the student class.
+The type of inheritance is public. That's because of the keyword public. It's commonly used to 
+express is-a relationships.
