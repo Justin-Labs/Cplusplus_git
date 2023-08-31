@@ -22,3 +22,11 @@ float Student::get_gpa() const {
 void Student::set_gpa(float g) {
     gpa = g;
 }
+
+string Student::get_major() const {
+    return major;
+}
+
+void Student::set_major(string m) {
+    major = m;
+}

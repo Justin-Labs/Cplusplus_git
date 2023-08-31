@@ -1,5 +1,4 @@
 #include <iostream>
-#include "Student.h"
 #include "GraduateStudent.h"
 
 using std::cout;
@@ -7,21 +6,27 @@ using std::endl;
 
 int main()
 {
-    Student student;
-    GraduateStudent grad_student;
+    GraduateStudent ethan;
+    GraduateStudent vera;
 
-    student.set_name("Ethan");
-    student.set_gpa(3.7f);
+    // ethan.set_name("Ethan");
+    // ethan.set_gpa(3.7f);
+    // ethan.set_major("Computer Science");
+    ethan.set_scholarship(false);
 
-    grad_student.set_name("Vera");
-    grad_student.set_gpa(3.9f);
-    grad_student.set_scholarship(true);
+    // vera.set_name("Vera");
+    // vera.set_gpa(3.9f);
+    // vera.set_major("Math");
+    vera.set_scholarship(true);
 
-    cout << "---Student---" << endl;
-    cout << "name: " << student.get_name() 
-         << " gpa: " << student.get_gpa() << endl;
+    cout << "---Access from outside class---" << endl;
+    // cout << "Name: " << ethan.name << endl;
+    // cout << "GPA: " << ethan.gpa << endl;
+    // cout << "Major: " << ethan.major << endl;
 
-    cout << "---GraduateStudent---" << endl;
-    grad_student.display_info();
+    // cout << "Has scholarship: " << std::boolalpha << ethan.scholarship << endl;
+
+    cout << "---Access from derived class---" << endl;
+    vera.display_info();
 }
 

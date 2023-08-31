@@ -2,7 +2,7 @@
 #include <string>
 #include "Student.h"
 
-class GraduateStudent : public Student {
+class GraduateStudent : private Student {
   private:
     bool scholarship;
 
