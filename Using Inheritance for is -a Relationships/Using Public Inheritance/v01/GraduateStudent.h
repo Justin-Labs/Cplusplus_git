@@ -4,9 +4,9 @@
 
 class GraduateStudent : public Student {    //graduateStudent derives from  the student class. The type of this inheritance is public.
   public:
-    bool scholarship;
+    bool scholarship;   //member variable
 
-    GraduateStudent() = default;
+    GraduateStudent() = default;    //defualt constructor implementation
 
-    bool has_scholarship() const;
+    bool has_scholarship() const;   //getter for the scholarship member variable
 };
