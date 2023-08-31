@@ -16,6 +16,6 @@ void GraduateStudent::set_scholarship(bool s) {
 }
 
 void GraduateStudent::display_info()  const {
-    cout << "name: " << get_name() << " gpa: " << get_gpa()
+    cout << "name: " << name << " gpa: " << gpa
         << " scholarship: " << std::boolalpha << scholarship << endl;
 }

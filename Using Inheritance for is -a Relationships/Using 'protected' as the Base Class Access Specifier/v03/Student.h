@@ -2,7 +2,7 @@
 #include <string>
 
 class Student {
-  private:
+  protected:
     std::string name;
     float gpa;
 
