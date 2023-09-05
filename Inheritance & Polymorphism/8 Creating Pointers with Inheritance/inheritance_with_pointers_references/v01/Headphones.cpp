@@ -1,0 +1,16 @@
+#include <string>
+#include <iostream>
+
+#include "Headphones.h"
+
+using std::string;
+using std::cout;
+using std::endl;
+
+Headphones::Headphones(string brand, float price, float cord_length) :
+    AudioDevice(brand, price), cord_length(cord_length) {
+}
+
+float Headphones::get_cord_length() const {
+    return cord_length;
+}
