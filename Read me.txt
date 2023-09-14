@@ -1,0 +1,39 @@
+git inti on command line to make folder a git repository
+
+git status on command line gives an summary of git repository
+
+git add "file name"
+
+git commit -m "added readme.txt"
+
+"new line here, saved file. then putting in git status in terminal
+gives no changes staged for commit"
+
+git add
+
+or 
+
+"git add ."  #adds everything to be staged for commit.
+
+"git status" will now show it is staged for commit. 
+
+followed by of course, git commit -m "made changes to Read me.txt"
+
+Now lets say we want to start a new branch...
+"git checkout -b new"
+
+new branch
+
+git add .
+git commit -m "first comment on new branch"
+
+to change branches type git checkout name_of_branch
+so..
+git checkout main
+
+how do we update a branch with the master/ main branch..
+git merge master
+
+if we want to change our origin
+git remote set-url origin "https://github.com/....our directory...."
+
